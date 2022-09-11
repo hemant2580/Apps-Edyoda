@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodApp</title>
+    <style>
+        header ul{
+            list-style-type: none;
+            background-color:black;
+            overflow: hidden;
+            margin: 0%;
+            padding: 0%; 
+        
+            
+        }
+        header li{
+         float: left; 
+        }
+        header li a{
+            color: white;
+            text-decoration: none;
+            padding: 14px 16px;
+        }
+        header li a:hover{
+            background-color: blanchedalmond;
+        }
+        .text-content a{
+            text-decoration: none;
+            color: black;
+        }
+         .fooditem{
+            width: 500px;
+            height: 500px;
+        } 
+        .labels{
+            margin-left: 240px;
+            margin-bottom: 40px;
+        }
+        .images{
+            width: 50%;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body style="padding: 0px;margin: 0px;background-color: lightgrey;">
+ <header>
+     <ul>
+         <li><a href="#">Index</a> </li>
+         <li><a href="#">Food</a></li>
+         <li><a href="#">About</a></li>
+     </ul>
+ </header>   
+ <div class="main">
+     <div class="text-content">
+         <h2>Top Favourite Foods</h2>
+
+         <ul>
+             <li><a href="#biryani">Biryani</a></li>
+             <li><a href="#burger">Burger</a></li>
+             <li><a href="#cakes">Cakes</a></li>
+             <li><a href="#samosa">Samosa</a></li>
+             <li><a href="#wings">Wings</a></li>
+         </ul>
+     </div>
+     <div class="images">
+         <div id="biryani">
+             <img src="biryani.gif" alt="" class="fooditem">
+         </div>
+         <p class="labels">Biryani</p>
+         <div id="burger">
+             <img src="burger.jpg" alt="" class="fooditem">
+         </div>
+         <p class="labels">Burger</p>
+         <div id="cakes">
+             <img src="cakes.png" alt="" class="fooditem">
+         </div>
+         <p class="labels">Cakes</p>
+         <div id="samosa">
+             <img src="samosa.jpg" alt="" class="fooditem">
+         </div>
+         <p class="labels">Samosa</p>
+         <div id="wings">
+             <img src="wings.jpg" alt="" class="fooditem">
+         </div>
+         <p class="labels">wings</p>
+     </div>
+ </div>
+</body>
+</html>
